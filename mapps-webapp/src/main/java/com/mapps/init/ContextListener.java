@@ -110,7 +110,7 @@ public class ContextListener implements ServletContextListener {
         User user2 = new User("train", "", new Date(), Gender.MALE, "user@mapps.com", "train", "train", inst, Role.TRAINER, "5.858.544.4");
         user.setEnabled(true);
         Sport sport = new Sport("Futbol");
-        Athlete athlete = new Athlete("pepe", "apellido", new Date(), Gender.MALE, "pepe@gmail.com", 78, 1.8, "1.111.111-0", inst);
+        Athlete athlete = new Athlete("Nicolas", "Sosa", new Date(), Gender.MALE, "nsosa@gmail.com", 78, 1.8, "4.446.586-4", inst2);
         Athlete mario = new Athlete("Mario", "Gomez", new Date(), Gender.MALE, "mario@gmail.com", 78, 1.80, "4.447.599-3", inst);
         Device device = new Device("0013A200", "40aad87e", 55, inst);
         Device device1 = new Device("0013A200", "40a9c8d2", 55, inst);
